@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Playfair+Display:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <title>Blog home</title>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+
+    <header class="header ta-center">
+        <div class="margin">
+
+        </div>
+        <div class="head-container">
+            <div id="logo-header">
+                <a id="logo" href="#" class="td-none">
+                    <h1>OUR BLOG NAME</h1>
+                </a>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <nav class="nav-links" id="nav-links">
+            <ul>
+                <li><a href="#" class="td-none">HOME</a></li>
+                <li><a href="#" class="td-none">CATEGORY</a></li>
+                <li><a href="blog.html" class="td-none">BLOG</a></li>
+                <li><a href="about.html" class="td-none">ABOUT</a></li>
+                <li><a href="contact.html" class="td-none">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Main -->
+
+    <section class="main-content d-inlineBlock">
+
+        <!-- ABOUT ME -->
+
+        <div class="aboutMe marginXY width80 d-flex">
+
+            <div id="imgAboutMe" class="aboutContent" role="img">
+                <img src="images/face.jpg" alt="Author photo" class="img-maxSize">
+            </div>
+            <div id="textAboutMe" class="aboutContent d-flex">
+                <div id="inside-textAboutMe ">
+                    <div id="aboutMe-title" class="ta-center">
+                        <h2 class="d-inlineBlock">Hi, About Me</h2>
+                    </div>
+                    <div id="aboutMe-text" class="ta-center">
+                        <p class="d-inlineBlock">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem vero
+                            ipsum, fugit amet
+                            facilis
+                            cumque quaerat ducimus in enim, neque dolores doloremque doloribus saepe iure numquam
+                            magnam
+                            quas blanditiis inventore.</p>
+                        <p class="d-inlineBlock">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam
+                            debitis
+                            pariatur ducimus
+                            aut
+                            autem vero sint, saepe, reprehenderit quo harum quos voluptas dignissimos fuga non quas
+                            corrupti
+                            repellat rerum.</p>
+                        <p class="d-inlineBlock">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+                            provident, aliquid, dicta
+                            maxime necessitatibus laboriosam repellendus itaque odio sit earum esse nobis labore
+                            quisquam
+                            dolorem. Doloremque facere reiciendis repudiandae a!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- NEW POSTS -->
+
+        <div class="whatsNew-container marginXY width80" id="whatsNew-blog">
+            <div>
+                <h2 class="ta-center">NEW ON THE BLOG</h2>
+            </div>
+            <div class="newPosts">
+                <div class="arrows d-flex">
+                    <span class="left-arrow arrow-padding" id="newBlogPost-left" role="button"><i
+                            class="fas fa-chevron-left"></i></span>
+                    <span class="right-arrow arrow-padding" id="newBlogPost-right" role="button"><i
+                            class="fas fa-chevron-right"></i></span>
+                </div>
+
+                <div class="newPost-items d-flex">
+                    <div class="newPost-container">
+                        <div class="newPost-thumbnail">
+                            <a href="post.html" class="thumbnail-container">
+                                <div class="thumbnail-img" role="img" aria-labelledby="Blog post image">
+                                    <img src="images/blogPosts/blogPost1.jpg" alt="Blog post 1" class="img-maxSize">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="thumbnail-title">
+                            <a href="post.html" class="td-none">Here blog post title</a>
+                        </div>
+                    </div>
+                    <div class="newPost-container">
+                        <div class="newPost-thumbnail">
+                            <a href="" class="thumbnail-container">
+                                <div class="thumbnail-img" role="img" aria-labelledby="Blog post image">
+                                    <img src="images/blogPosts/blogPost2.jpg" alt="Blog post 2" class="img-maxSize">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="thumbnail-title text-centered">
+                            <a href="#" class="td-none">Here blog post title</a>
+                        </div>
+                    </div>
+                    <div class="newPost-container">
+                        <div class="newPost-thumbnail">
+                            <a href="" class="thumbnail-container">
+                                <div class="thumbnail-img" role="img" aria-labelledby="Blog post image">
+                                    <img src="images/blogPosts/blogPost3.jpg" alt="Blog post 3" class="img-maxSize">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="thumbnail-title">
+                            <a href="#" class="td-none">Here blog post title</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEWSLETTER -->
+
+        <div class="newsletter-container marginXY width80 d-flex" role="img">
+            <div class="newsletter-text text-centered">
+                <h2>Subscribe to my newsletter!</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores perspiciatis laborum iste,
+                    eius ullam corrupti corporis error! Blanditiis facilis esse cum aspernatur asperiores?
+                    Ratione iusto consequuntur quo perspiciatis doloribus porro?</p>
+            </div>
+            <div id="newsletter-form-container">
+                <input type="email" class="newsletter-form" name="newsletterEmail" id="newsletterEmail"
+                    placeholder="Email Address">
+                <button class="newsletter-form newsletter-button">SIGN UP</button>
+            </div>
+        </div>
+
+        <!-- INSTGRAM POSTS -->
+
+        <div class="whatsNew-container marginXY width80" id="whatsNew-instagram">
+            <div>
+                <h2 class="ta-center">INSTAGRAM</h2>
+            </div>
+            <div class="newPosts">
+                <div class="arrows d-flex">
+                    <span class="left-arrow arrow-padding" id="instagram-left" role="button"><i
+                            class="fas fa-chevron-left"></i></span>
+                    <span class="right-arrow arrow-padding" id="instagram-right" role="button"><i
+                            class="fas fa-chevron-right"></i></span>
+                </div>
+
+                <div class="newPost-items d-flex">
+                    <div class="newPost-container">
+                        <div class="newPost-thumbnail">
+                            <a href="" class="thumbnail-container">
+                                <div class="thumbnail-img" role="img" aria-labelledby="Instagram post thumbnail">
+                                    <img src="images//instagram/instagram1.jpg" alt="Instagram post 1"
+                                        class="img-maxSize">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="newPost-container">
+                        <div class="newPost-thumbnail">
+                            <a href="" class="thumbnail-container">
+                                <div class="thumbnail-img" role="img" aria-labelledby="Instagram post thumbnail">
+                                    <img src="images/instagram/instagram2.jpg" alt="Instagram post 2"
+                                        class="img-maxSize">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="newPost-container">
+                        <div class="newPost-thumbnail">
+                            <a href="" class="thumbnail-container">
+                                <div class="thumbnail-img" role="img" aria-labelledby="Instagram post thumbnail">
+                                    <img src="images/instagram/instagram3.jpg" alt="Instagram post 3"
+                                        class="img-maxSize">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer d-flex">
+        <div class="footer-socialLinks">
+
+            <p>Follow me</p>
+
+            <div class="socialLinks">
+                <ul>
+                    <li><a href="#" class="td-none"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href="#" class="td-none"><i class="fa fa-pinterest fa-2x"></i></a></li>
+                    <li><a href="#" class="td-none"><i class="fa fa-youtube fa-2x"></i></a></li>
+                    <li><a href="#" class="td-none"><i class="fa fa-instagram fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="footer-links ta-center">
+            <ul>
+                <li><a href="#" class="td-none">HOME</a></li>
+                <li><a href="blog.html" class="td-none">BLOG</a></li>
+                <li><a href="about.html" class="td-none">ABOUT</a></li>
+                <li><a href="contact.html" class="td-none">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="footer-newsletter">
+            <p>Subscribe to my newsletter!</p>
+            <div class="newsletter-form-footer">
+                <input type="email" class="newsletter-form" name="email" id="email" placeholder="Email Address">
+                <button class="newsletter-form newsletter-button">SIGN UP</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3d95625e69.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

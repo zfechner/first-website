@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #272010;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f6fff8;
+
+}
+
+.width80 {
+    width: 80%;
+}
+
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    margin: 90px 0;
+}
+
+.img-maxSize{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.td-none {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.marginXY {
+    margin: 90px auto;
+}
+
+/* header */
+
+.header {
+    background-color: #D05B07;
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+
+#logo {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+#logo-header {
+    padding: 5rem 0 5rem 0;
+}
+
+#logo-header p {
+    padding-top: 1rem;
+    color: #FAA74D;
+}
+
+.nav-links a {
+    color: #FAA74D;
+}
+
+.nav-links a:hover, .category-link:hover {
+    color: #B6B0B0;
+}
+
+.nav-links li {
+    margin: 1rem;
+}
+
+.nav-links {
+    background-color: #D05B07;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+/* About me*/
+
+
+
+.d-inlineBlock {
+    display: inline-block;
+}
+
+.aboutMe {
+    flex-direction: row;
+}
+
+#imgAboutMe {
+    width: 60%;
+}
+
+#imgAboutMe  img {
+    display: block;
+  }
+
+#textAboutMe {
+    width: 40%;
+    background-color: #ff9505;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#aboutMe-title h2 {
+    height: 2rem;
+    padding: 1rem 0;
+}
+
+#aboutMe-text p {
+    width: 70%;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+
+/* New on the blog */
+
+.arrows {
+    justify-content: flex-end;
+}
+
+.arrows span:hover {
+    cursor: pointer;
+}
+
+.arrow-padding {
+    padding: 1rem;
+}
+
+.newPost-items {
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newPost-container {
+    width: 30%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.thumbnail-title a {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+ /* Newsletter */
+
+.newsletter-container {
+    padding: 15% 0;
+    background-image: url('images/newsletter.jpg');
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-text {
+    width: 50%;
+}
+
+.newsletter-text h2 {
+    letter-spacing: 0.2rem;
+}
+
+.newsletter-text h2, .newsletter-text p {
+    color: white;
+    padding: 1rem;
+}
+
+.newsletter-form {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0.7rem 0.5rem;
+    border: 0.1em solid gray;
+}
+
+.newsletter-button {
+    background-color: #D05B07; 
+    color: #FAA74D;
+    border: 0.1em solid gray;
+}
+
+.newsletter-button:hover, .newsletter-button:focus {
+    cursor: pointer;
+    background-color: #B65107;
+    outline: none;
+}
+
+
+
+/* Footer */
+
+.footer {
+    margin: 0;
+    padding: 5% 0 5% 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FAA74D;
+}
+
+.footer-socialLinks, .footer-newsletter {
+    text-align: center;
+}
+
+.socialLinks, .newsletter-form-footer {
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.socialLinks li{
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.footer-links {
+    display: block;
+}
+
+.footer-links li{
+    margin: 0.5rem 0;
+    list-style-type: none;
+}
+
+.footer-links a {
+    margin: 3rem 0;
+
+}
+
+.footer-links a:hover {
+    color: #B6B0B0;
+}
+
+
+#aboutTitle {
+    margin-bottom: 2rem;
+}
+
+#aboutText p {
+    margin: 0 18%;
+    padding: 1.5rem 0;
+    line-height: 1.6rem;
+}
+
+#imageAbout {
+    width: 40%;
+}
+
+.width60 {
+    width: 60%;
+}
+
+.form-container {
+    flex-direction: column;
+}
+
+#contactTitle {
+    margin-bottom: 2rem;
+}
+
+#contactText p {
+    margin: 0 18%;
+    padding: 1.5rem 0;
+    line-height: 1.6rem;
+}
+
+p input{
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+label {
+    float: left;
+}
+
+textarea {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+}
+
+button {
+    background-color: #D05B07; 
+    color: #FAA74D;
+    padding: 0.7rem 0.5rem;
+    border: 0.1em solid gray;
+    margin: 1rem;
+}
+
+button:hover, button:focus {
+    cursor: pointer;
+    background-color: #B65107;
+    padding: 0.7rem 0.5rem;
+    outline: none;
+}
+
+
+#blogPageTitle {
+    margin-bottom: 2rem;
+}
+
+.blogPosts-items {
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogPost {
+    margin: 1rem;
+    text-align: center;
+}
+
+.postContent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#postTitle {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+#postThumbnail {
+    margin: 50px 0;
+}
+
+.category {
+    padding-bottom: 0.7rem;
+}
+
+.textInfo {
+    padding-top: 0.7rem;
+}
+
+.text-secondary, .fas {
+    color: #B6B0B0;
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.postText {
+    text-align: justify;
+}
+
+.postText p {
+    margin: 0 18%;
+    padding: 1.5rem 0;
+    line-height: 1.6rem;
+}
+
+
+
+@media (min-width: 500px){
+    #logo {
+        font-size: 1.3rem;
+    }
+    #logo-header p {
+        font-size: 0.8rem;
+    }
+    .nav-links ul li, .socialLinks ul li
+	{
+		display: block;
+    }   
+    .footer, .newPost-items, .blogPosts-items {
+        flex-direction: column;
+    }
+    .footer-newsletter {
+        padding-top: 2rem;
+    }
+    .newPost-container, .blogPost, #postThumbnail {
+        width: 70%;
+    }
+    .main-content{
+        margin: 280px 0;
+    }
+}
+
+@media (min-width: 750px){
+    #logo {
+        font-size: 1.5rem;
+    }
+    .nav-links ul li,  .socialLinks ul li
+	{
+        display: inline-block;
+	}
+    .footer, .newPost-items, .blogPosts-items  {
+        flex-direction: row;
+    }
+    .main-content{
+        margin: 90px 0;
+    }
+    #postThumbnail {
+        width: 50%;
+    }
+    .blogPost {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1000px){
+    #logo {
+        font-size: 1.8rem;
+    }
+    #logo-header p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 750px){
+    .aboutMe {
+        flex-direction: column;
+        align-items: center;
+    }
+    #imgAboutMe, #textAboutMe {
+        width: 70%;
+    }
+
+}
